@@ -25,14 +25,15 @@ You can custom the json path in your global _config.xml
 
 When the plugin is installed , it will auto generator search.json (by default) in your root context.
 
-The json is a array and each element will be included 4 field like this :
+The json is a array and each element will be included 5 field like this :
 ``` json
 [
 {
 "title": "xxxxxx",
 "url": "xxxxxx" ,
 "content": "xxxxxx" ,
-"tokenize": "xx xx xx xx"
+"title_tokenize": "xx xx xx xx",
+"content_tokenize": "xx xx xx xx"
 },
 {
 ...
