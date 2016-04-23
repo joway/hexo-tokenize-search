@@ -1,0 +1,33 @@
+{
+  "name": "hexo-tokenize-search",
+  "version": "0.0.1",
+  "description": "Generate search.json with tokenize",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joway/hexo-tokenize-search.git"
+  },
+  "keywords": [
+    "hexo",
+    "pages",
+    "hexo plugin",
+    "search",
+    "static",
+    "tokenize"
+  ],
+  "author": {
+    "name": "joway"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/joway/hexo-tokenize-search#readme",
+  "dependencies": {
+    "utils-merge": "^1.0.0",
+    "segment": "^0.1.3"
+  },
+  "maintainers": [
+    {
+      "name": "joway",
+      "email": "joway@joway.wang"
+    }
+  ]
+}
