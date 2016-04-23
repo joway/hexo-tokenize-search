@@ -4,6 +4,8 @@
 
 [Json Demo](https://joway.wang/search.json)
 
+[中文: Hexo折腾记——静态站点搜索](https://joway.wang/posts/Hexo/2016-04-23-hexo-search.html) 
+
 ## Dependence
 
 Tokenize Dependence: [Segment](https://github.com/leizongmin/node-segment)
@@ -48,6 +50,19 @@ I removed html tags in the content field and remove punctuations in the tokenize
 You can use your query to custom sort the json array.
 
 There is my simple example:
+
+> search.html
+
+``` html
+<form action="/search" method="get" style="text-align: center">
+    <input type="text" class="st-default-search-input search" id="search"
+           placeholder=" Search..." name="query" style="height: 40px">
+</form>
+<div id='result'></div>
+<script src='/js/search.js'></script>
+```
+
+> search.js
 
 	function getParameterByName(name, url) {
 	    if (!url) url = window.location.href;
