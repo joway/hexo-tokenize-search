@@ -1,5 +1,7 @@
 # hexo-tokenize-search
 
+![](https://img.shields.io/npm/v/hexo-tokenize-search.svg)
+
 [Website Demo](https://joway.wang/search/)
 
 [Json Demo](https://joway.wang/search.json)
